@@ -10,12 +10,13 @@
 }
 
 body{
-    background-image: url('https://i.pinimg.com/originals/21/9a/09/219a09d5c2d9e50e4c2d20c9a03e09af.gif');
+    background-image: linear-gradient(43deg,#00000099 70%,#1f1f1f59 94%),
+    url(https://i.pinimg.com/originals/21/9a/09/219a09d5c2d9e50e4c2d20c9a03e09af.gif);
+    height: 100vh;
     font-family: 'Poppins', sans-serif;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
 }
 
 section{
@@ -25,7 +26,7 @@ section{
 
 form{
     background: #ffffff1a;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
     padding: 3em;
     border-radius: 10px;
     margin: 5em;
@@ -51,7 +52,7 @@ label{
 
 input{
     display: block;
-    background: #ffffff26;
+    background: #ffffff36;
     border: none;
     border-radius: 10px;
     padding: 12px;
